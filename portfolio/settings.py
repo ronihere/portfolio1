@@ -109,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Asia/kolkata'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
@@ -123,7 +123,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
  # new
-STATIC_ROOT = os.path.join(BASE_DIR,'static') # new
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles') # new
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
